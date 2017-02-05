@@ -15,7 +15,7 @@
 
 //*********************** SETUP **********************************
 
-void setup() {             // configura el final de la salida
+void setup() {             // configura el final de la sortida
 pinMode(LED_BUILTIN, OUTPUT);
 }
 
@@ -24,10 +24,10 @@ pinMode(LED_BUILTIN, OUTPUT);
 
 
 void loop () {             // inicia el bucle del programa
-digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       //  for a secondwait
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);                       // wait for a second  
+digitalWrite(LED_BUILTIN, HIGH);   // Encen el LED cuan hi ha tensió
+  delay(1000);                       //  ms que el LED estara ences
+  digitalWrite(LED_BUILTIN, LOW);    // Apaga el LED cuna cau el voltatge
+  delay(1000);                       // ms que el LED estara apagat  
 }
 
 
